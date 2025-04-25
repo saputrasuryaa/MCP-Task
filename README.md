@@ -6,10 +6,6 @@ This Python script uses the Model Context Protocol (MCP) to connect to a Slack s
 
 ## Prerequisites
 
-* **Python 3.6+**
-* **pip** (Python package installer)
-* **MCP Slack Server running** (You need to have `@modelcontextprotocol/server-slack` set up and running, as this script acts as a client to it).
-* **Node.js and npm** (required by the MCP Slack server).
 * **Slack Bot Token:** You need to create a Slack bot and obtain its OAuth access token.
 * **Slack Team ID:** The ID of your Slack workspace.
 * **OpenAI API Key:** You need an API key from OpenAI to use their language models for summarization.
